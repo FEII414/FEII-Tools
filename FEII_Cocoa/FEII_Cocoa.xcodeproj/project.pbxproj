@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13B90581E71453E00E8843B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B90571E71453E00E8843B /* AppDelegate.m */; };
+		A13B905B1E71453E00E8843B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B905A1E71453E00E8843B /* main.m */; };
+		A13B905E1E71453E00E8843B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B905D1E71453E00E8843B /* ViewController.m */; };
+		A13B90601E71453E00E8843B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13B905F1E71453E00E8843B /* Assets.xcassets */; };
+		A13B90631E71453E00E8843B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13B90611E71453E00E8843B /* Main.storyboard */; };
+		A13B906E1E71453F00E8843B /* FEII_CocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B906D1E71453F00E8843B /* FEII_CocoaTests.m */; };
+		A13B90791E71453F00E8843B /* FEII_CocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B90781E71453F00E8843B /* FEII_CocoaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13B906A1E71453E00E8843B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13B904B1E71453E00E8843B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13B90521E71453E00E8843B;
+			remoteInfo = FEII_Cocoa;
+		};
+		A13B90751E71453F00E8843B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13B904B1E71453E00E8843B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13B90521E71453E00E8843B;
+			remoteInfo = FEII_Cocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13B90531E71453E00E8843B /* FEII_Cocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEII_Cocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13B90561E71453E00E8843B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A13B90571E71453E00E8843B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A13B905A1E71453E00E8843B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13B905C1E71453E00E8843B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A13B905D1E71453E00E8843B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A13B905F1E71453E00E8843B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13B90621E71453E00E8843B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13B90641E71453E00E8843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13B90691E71453E00E8843B /* FEII_CocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEII_CocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13B906D1E71453F00E8843B /* FEII_CocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEII_CocoaTests.m; sourceTree = "<group>"; };
+		A13B906F1E71453F00E8843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13B90741E71453F00E8843B /* FEII_CocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEII_CocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13B90781E71453F00E8843B /* FEII_CocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEII_CocoaUITests.m; sourceTree = "<group>"; };
+		A13B907A1E71453F00E8843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13B90501E71453E00E8843B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B90661E71453E00E8843B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B90711E71453F00E8843B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13B904A1E71453E00E8843B = {
+			isa = PBXGroup;
+			children = (
+				A13B90551E71453E00E8843B /* FEII_Cocoa */,
+				A13B906C1E71453E00E8843B /* FEII_CocoaTests */,
+				A13B90771E71453F00E8843B /* FEII_CocoaUITests */,
+				A13B90541E71453E00E8843B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13B90541E71453E00E8843B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13B90531E71453E00E8843B /* FEII_Cocoa.app */,
+				A13B90691E71453E00E8843B /* FEII_CocoaTests.xctest */,
+				A13B90741E71453F00E8843B /* FEII_CocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13B90551E71453E00E8843B /* FEII_Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				A13B90561E71453E00E8843B /* AppDelegate.h */,
+				A13B90571E71453E00E8843B /* AppDelegate.m */,
+				A13B905C1E71453E00E8843B /* ViewController.h */,
+				A13B905D1E71453E00E8843B /* ViewController.m */,
+				A13B905F1E71453E00E8843B /* Assets.xcassets */,
+				A13B90611E71453E00E8843B /* Main.storyboard */,
+				A13B90641E71453E00E8843B /* Info.plist */,
+				A13B90591E71453E00E8843B /* Supporting Files */,
+			);
+			path = FEII_Cocoa;
+			sourceTree = "<group>";
+		};
+		A13B90591E71453E00E8843B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13B905A1E71453E00E8843B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A13B906C1E71453E00E8843B /* FEII_CocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13B906D1E71453F00E8843B /* FEII_CocoaTests.m */,
+				A13B906F1E71453F00E8843B /* Info.plist */,
+			);
+			path = FEII_CocoaTests;
+			sourceTree = "<group>";
+		};
+		A13B90771E71453F00E8843B /* FEII_CocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13B90781E71453F00E8843B /* FEII_CocoaUITests.m */,
+				A13B907A1E71453F00E8843B /* Info.plist */,
+			);
+			path = FEII_CocoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13B90521E71453E00E8843B /* FEII_Cocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13B907D1E71453F00E8843B /* Build configuration list for PBXNativeTarget "FEII_Cocoa" */;
+			buildPhases = (
+				A13B904F1E71453E00E8843B /* Sources */,
+				A13B90501E71453E00E8843B /* Frameworks */,
+				A13B90511E71453E00E8843B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FEII_Cocoa;
+			productName = FEII_Cocoa;
+			productReference = A13B90531E71453E00E8843B /* FEII_Cocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13B90681E71453E00E8843B /* FEII_CocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13B90801E71453F00E8843B /* Build configuration list for PBXNativeTarget "FEII_CocoaTests" */;
+			buildPhases = (
+				A13B90651E71453E00E8843B /* Sources */,
+				A13B90661E71453E00E8843B /* Frameworks */,
+				A13B90671E71453E00E8843B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13B906B1E71453E00E8843B /* PBXTargetDependency */,
+			);
+			name = FEII_CocoaTests;
+			productName = FEII_CocoaTests;
+			productReference = A13B90691E71453E00E8843B /* FEII_CocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A13B90731E71453F00E8843B /* FEII_CocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13B90831E71453F00E8843B /* Build configuration list for PBXNativeTarget "FEII_CocoaUITests" */;
+			buildPhases = (
+				A13B90701E71453F00E8843B /* Sources */,
+				A13B90711E71453F00E8843B /* Frameworks */,
+				A13B90721E71453F00E8843B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13B90761E71453F00E8843B /* PBXTargetDependency */,
+			);
+			name = FEII_CocoaUITests;
+			productName = FEII_CocoaUITests;
+			productReference = A13B90741E71453F00E8843B /* FEII_CocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13B904B1E71453E00E8843B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = feii;
+				TargetAttributes = {
+					A13B90521E71453E00E8843B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A13B90681E71453E00E8843B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A13B90521E71453E00E8843B;
+					};
+					A13B90731E71453F00E8843B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A13B90521E71453E00E8843B;
+					};
+				};
+			};
+			buildConfigurationList = A13B904E1E71453E00E8843B /* Build configuration list for PBXProject "FEII_Cocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13B904A1E71453E00E8843B;
+			productRefGroup = A13B90541E71453E00E8843B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13B90521E71453E00E8843B /* FEII_Cocoa */,
+				A13B90681E71453E00E8843B /* FEII_CocoaTests */,
+				A13B90731E71453F00E8843B /* FEII_CocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13B90511E71453E00E8843B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13B90601E71453E00E8843B /* Assets.xcassets in Resources */,
+				A13B90631E71453E00E8843B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B90671E71453E00E8843B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B90721E71453F00E8843B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13B904F1E71453E00E8843B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13B905E1E71453E00E8843B /* ViewController.m in Sources */,
+				A13B905B1E71453E00E8843B /* main.m in Sources */,
+				A13B90581E71453E00E8843B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B90651E71453E00E8843B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13B906E1E71453F00E8843B /* FEII_CocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B90701E71453F00E8843B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13B90791E71453F00E8843B /* FEII_CocoaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13B906B1E71453E00E8843B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13B90521E71453E00E8843B /* FEII_Cocoa */;
+			targetProxy = A13B906A1E71453E00E8843B /* PBXContainerItemProxy */;
+		};
+		A13B90761E71453F00E8843B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13B90521E71453E00E8843B /* FEII_Cocoa */;
+			targetProxy = A13B90751E71453F00E8843B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13B90611E71453E00E8843B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13B90621E71453E00E8843B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13B907B1E71453F00E8843B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A13B907C1E71453F00E8843B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A13B907E1E71453F00E8843B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FEII_Cocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FEII.HELLO.FEII-Cocoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A13B907F1E71453F00E8843B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FEII_Cocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FEII.HELLO.FEII-Cocoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13B90811E71453F00E8843B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FEII_CocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FEII.HELLO.FEII-CocoaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEII_Cocoa.app/Contents/MacOS/FEII_Cocoa";
+			};
+			name = Debug;
+		};
+		A13B90821E71453F00E8843B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FEII_CocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FEII.HELLO.FEII-CocoaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEII_Cocoa.app/Contents/MacOS/FEII_Cocoa";
+			};
+			name = Release;
+		};
+		A13B90841E71453F00E8843B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FEII_CocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FEII.HELLO.FEII-CocoaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEII_Cocoa;
+			};
+			name = Debug;
+		};
+		A13B90851E71453F00E8843B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FEII_CocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FEII.HELLO.FEII-CocoaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEII_Cocoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13B904E1E71453E00E8843B /* Build configuration list for PBXProject "FEII_Cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B907B1E71453F00E8843B /* Debug */,
+				A13B907C1E71453F00E8843B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13B907D1E71453F00E8843B /* Build configuration list for PBXNativeTarget "FEII_Cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B907E1E71453F00E8843B /* Debug */,
+				A13B907F1E71453F00E8843B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A13B90801E71453F00E8843B /* Build configuration list for PBXNativeTarget "FEII_CocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B90811E71453F00E8843B /* Debug */,
+				A13B90821E71453F00E8843B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A13B90831E71453F00E8843B /* Build configuration list for PBXNativeTarget "FEII_CocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B90841E71453F00E8843B /* Debug */,
+				A13B90851E71453F00E8843B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13B904B1E71453E00E8843B /* Project object */;
+}
